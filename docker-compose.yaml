@@ -9,7 +9,7 @@ services:
 
 
   mysql:
-
+    container_name: mysql_cont
     image: mysql:8.0
     environment:
       MYSQL_DATABASE: businessproject
